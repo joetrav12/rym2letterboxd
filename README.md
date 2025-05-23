@@ -5,7 +5,7 @@ Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog 
 ## Requirements
 You'll need [Python v3.7+](https://python.org/downloads) and [Pip v19.0+](https://pip.pypa.io/en/stable/installation) installed to run this script.
 
-## Getting Started
+## TMDB API Key
 
 This script uses TMDB's API to find the most likely match to each film in your RYM catalog. You'll need an API key to run the script successfully.
 
