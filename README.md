@@ -46,7 +46,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
 4. Add your key in `.env`:
 
     ```ini
-    TMDB_API_KEY=your_api_key_here
+    TMDB_API_KEY='your_api_key_here'
     ```
 
 3. Run the script:
