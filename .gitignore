@@ -1,5 +1,5 @@
 .env
 __pycache__/
 *.pyc
-*.csv
-*.txt
+export_film_catalog.csv
+export_film_catalog.txt
