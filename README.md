@@ -22,7 +22,9 @@ This script uses TMDB's API to find the most likely match to each film in your R
 1. Clone this repo.
 
     ```bash
-    git clone github.com/joetrav12/rym2letterboxd.git
+    git clone https://github.com/joetrav12/rym2letterboxd
+    ```
+    ```bash
     cd rym2letterboxd
     ```
 
