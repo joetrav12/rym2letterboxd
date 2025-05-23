@@ -54,6 +54,10 @@ This script uses TMDB's API to find the most likely match to each film in your R
     ```bash
     python rym2letterboxd.py
     ```
+    or
+    ```bash
+    python3 rym2letterboxd.py
+    ```
 
 ## Output
 A file called `import_film_catalog.csv` ready to import into Letterboxd.
