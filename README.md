@@ -7,7 +7,7 @@ You'll need [Python v3.7+](https://python.org/downloads) and [Pip v19.0+](https:
 
 ## TMDB API Key
 
-This script uses TMDB's API to find the most likely match to each film in your RYM catalog. You'll need an API key to run the script successfully.
+This script uses TMDB's API to find the most likely match to each film in your RYM catalog. You'll need an API key to run this script.
 
 1. Go to https://themoviedb.org/account/signup and create a free account.
 2. After logging in, go to [API Settings](https://themoviedb.org/settings/api).
