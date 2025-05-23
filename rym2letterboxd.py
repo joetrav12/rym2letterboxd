@@ -78,13 +78,14 @@ def find_best_match(title, year):
     return best_match['title']
 
 def main(argv):
-    print('Processing...')
     # Load exported RYM film catalog
     try:
         rym_films = pd.read_csv('export_film_catalog.txt')
     except FileNotFoundError:
         print("Error: 'export_film_catalog.txt' not found.")
         sys.exit(1)
+
+    print('Processing...')
 
     years = []
     watched_dates_formatted = []
