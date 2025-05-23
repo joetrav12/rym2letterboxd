@@ -1,4 +1,4 @@
-# RYM to Letterboxd Importer
+# RYM to Letterboxd Migration Tool
 
 Convert your exported [Rate Your Music](rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](themoviedb.org).
 
@@ -36,6 +36,6 @@ This script uses TMDB's API to find most likely match to the each film in your R
 A file called `import_film_catalog.csv` ready to import into Letterboxd.
 
 ## Importing into Letterboxd
-1. Go to `https://letterboxd.com/import` and click 'SELECT A FILE'.
+1. Go to `letterboxd.com/import` and click 'SELECT A FILE'.
 2. Select the newly created `import_film_catalog.csv`.
 3. Review the Import summary, then click 'IMPORT FILMS'.
