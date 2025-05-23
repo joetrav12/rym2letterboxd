@@ -1,11 +1,16 @@
 # RYM to Letterboxd Importer
 
-Convert your exported RateYourMusic film catalog into a format ready for import into [Letterboxd](https://letterboxd.com).
+Convert your exported [Rate Your Music](rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](themoviedb.org).
 
-## Features
-- Corrects missing articles like "The", "La", etc.
-- Matches movies using TMDb API with popularity ranking
-- Exports a clean CSV file for Letterboxd import
+## Getting Started
+
+This script uses TMDB's API to find most likely match to the each film in your RYM catalog based on the information provided. You'll need an API key to run the script successfully.
+
+1. Go to themoviedb.org/account/signup and create a free account.
+2. After logging in, go to your API settings.
+3. Click "Create".
+4. Fill out the form (you can just say it's for personal use).
+5. Copy your API key and paste it in `.env`.
 
 ## Exporting from RYM
 
@@ -21,13 +26,7 @@ Convert your exported RateYourMusic film catalog into a format ready for import 
     pip install -r requirements.txt
     ```
 
-3. Copy `.env.example` to `.env` and set your TMDb API key:
-
-    ```bash
-    cp .env.example .env
-    ```
-
-4. Run the script:
+3. Run the script:
 
     ```bash
     python rym2letterboxd.py
