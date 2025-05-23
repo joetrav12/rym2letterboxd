@@ -18,7 +18,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
 ## Exporting from RYM
 
 1. Go to your profile in RYM and click 'Export your film catalog'.
-2. Save the catalog as a `.txt` file (called `export_film_catalog.txt`) to this project folder.
+2. Save the catalog as a .txt file (called `export_film_catalog.txt`) to this project folder.
 
 ## Creating Import File
 
