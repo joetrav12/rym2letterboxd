@@ -4,13 +4,13 @@ Convert your exported [Rate Your Music](rateyourmusic.com) film catalog into a f
 
 ## Getting Started
 
-This script uses TMDB's API to find most likely match to the each film in your RYM catalog based on the information provided. You'll need an API key to run the script successfully.
+This script uses TMDB's API to find the most likely match to each film in your RYM catalog. You'll need an API key to run the script successfully.
 
 1. Go to themoviedb.org/account/signup and create a free account.
-2. After logging in, go to your API settings.
+2. After logging in, go to [API Settings](themoviedb.org/settings/api).
 3. Click "Create".
 4. Fill out the form (you can just say it's for personal use).
-5. Copy your API key and paste it in `.env`.
+5. Copy your API key (you'll use it in a later step).
 
 ## Exporting from RYM
 
@@ -20,10 +20,28 @@ This script uses TMDB's API to find most likely match to the each film in your R
 ## Creating Import File
 
 1. Clone this repo.
+
+    ```bash
+    git clone github.com/joetrav12/rym2letterboxd.git
+    cd rym2letterboxd
+    ```
+
 2. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
+    ```
+
+3. Create a .env file:
+
+    ```bash
+    touch .env
+    ```
+
+4. Add your key in `.env`:
+
+    ```ini
+    TMDB_API_KEY=your_api_key_here
     ```
 
 3. Run the script:
