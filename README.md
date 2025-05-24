@@ -15,11 +15,11 @@ pip --version
 
 ## Setup
 
-1. Clone this repo:
+Clone this repo:
 
-    ```bash
-    git clone https://github.com/joetrav12/rym2letterboxd
-    ```
+```bash
+git clone https://github.com/joetrav12/rym2letterboxd
+```
 
 ## TMDB API Key
 
