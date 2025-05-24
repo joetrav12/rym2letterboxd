@@ -61,6 +61,6 @@ This script uses TMDB's API to find the most likely match to each film in your R
 The script will generate `import_film_catalog.csv` in the project directory. This file is formatted according to [Letterboxd's import guidelines](https://letterboxd.com/help/importing-data).
 
 ## Importing into Letterboxd
-1. Go to https://letterboxd.com/import and click 'SELECT A FILE'.
+1. Go to https://letterboxd.com/import and click **SELECT A FILE**.
 2. Select the newly created `import_film_catalog.csv`.
 3. Review the Import summary, then click 'IMPORT FILMS'.
