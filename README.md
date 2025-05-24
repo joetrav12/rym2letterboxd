@@ -18,7 +18,7 @@ git clone https://github.com/joetrav12/rym2letterboxd
 
 This script uses TMDB's API to find the most likely match to each film in your RYM catalog. You'll need an API key to run this script.
 
-1. Go to https://themoviedb.org/account/signup and create a free account.
+1. Go to [TMDB](https://themoviedb.org/account/signup) and create a free account.
 2. After logging in, go to [API Settings](https://themoviedb.org/settings/api).
 3. Click "Create".
 4. Fill out the form (you can just say it's for personal use).
@@ -31,7 +31,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
 
 ## Creating Import File
 
-1. Navigate to this project directory:
+1. Navigate to the project directory:
 
     ```bash
     cd rym2letterboxd
@@ -55,10 +55,6 @@ This script uses TMDB's API to find the most likely match to each film in your R
 
     ```bash
     python rym2letterboxd.py
-    ```
-    or
-    ```bash
-    python3 rym2letterboxd.py
     ```
 
 ## Output
