@@ -3,14 +3,15 @@
 Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](https://letterboxd.com).
 
 ## Requirements
+
 You'll need [Python v3.7+](https://python.org/downloads) and [Pip v19.0+](https://pip.pypa.io/en/stable/installation) installed to run this script.
 
 To confirm you have them installed, run:
 
-    ```bash
-    python --version
-    pip --version
-    ```
+```bash
+python --version
+pip --version
+```
 
 ## Setup
 
