@@ -6,13 +6,6 @@ Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog 
 
 You'll need [Python v3.7+](https://python.org/downloads) and [Pip v19.0+](https://pip.pypa.io/en/stable/installation) installed to run this script.
 
-To confirm you have them installed, run:
-
-```bash
-python --version
-pip --version
-```
-
 ## Setup
 
 Clone this repo:
@@ -50,19 +43,15 @@ This script uses TMDB's API to find the most likely match to each film in your R
     pip install -r requirements.txt
     ```
 
-3. Create a `.env` file:
+3. Create a new `.env` file from `.env.example`:
 
     ```bash
-    touch .env
+    cp .env.example .env
     ```
 
-4. Add your key in `.env`:
+4. Open `.env` and add your key.
 
-    ```ini
-    TMDB_API_KEY='your_api_key_here'
-    ```
-
-3. Run the script:
+5. Run the script:
 
     ```bash
     python rym2letterboxd.py
