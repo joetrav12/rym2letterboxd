@@ -1,9 +1,24 @@
 # RYM to Letterboxd Migration Tool
 
-Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](https://themoviedb.org).
+Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](https://letterboxd.com).
 
 ## Requirements
 You'll need [Python v3.7+](https://python.org/downloads) and [Pip v19.0+](https://pip.pypa.io/en/stable/installation) installed to run this script.
+
+To confirm you have them installed, run:
+
+    ```bash
+    python --version
+    pip --version
+    ```
+
+## Setup
+
+1. Clone this repo:
+
+    ```bash
+    git clone https://github.com/joetrav12/rym2letterboxd
+    ```
 
 ## TMDB API Key
 
@@ -18,15 +33,12 @@ This script uses TMDB's API to find the most likely match to each film in your R
 ## Exporting from RYM
 
 1. Go to your profile in RYM and click 'Export your film catalog'.
-2. Save the catalog as a .txt file (called `export_film_catalog.txt`) to this project folder.
+2. Save the catalog as a `.txt` file (called `export_film_catalog.txt`) to this project folder.
 
 ## Creating Import File
 
-1. Clone this repo.
+1. Navigate to this project directory:
 
-    ```bash
-    git clone https://github.com/joetrav12/rym2letterboxd
-    ```
     ```bash
     cd rym2letterboxd
     ```
@@ -37,7 +49,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
     pip install -r requirements.txt
     ```
 
-3. Create a .env file:
+3. Create a `.env` file:
 
     ```bash
     touch .env
@@ -60,7 +72,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
     ```
 
 ## Output
-A file called `import_film_catalog.csv` ready to import into Letterboxd.
+The script will generate `import_film_catalog.csv` in the project directory. This file is formatted according to [Letterboxd's import guidelines](https://letterboxd.com/help/importing-data).
 
 ## Importing into Letterboxd
 1. Go to https://letterboxd.com/import and click 'SELECT A FILE'.
