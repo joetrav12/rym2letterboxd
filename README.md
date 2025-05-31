@@ -26,7 +26,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
 
 1. Go to [TMDB](https://themoviedb.org/account/signup) and create a free account.
 2. After logging in, go to [API Settings](https://themoviedb.org/settings/api).
-3. Click "Create".
+3. Click 'Create'.
 4. Fill out the form (you can just say it's for personal use).
 5. Copy your API key (you'll use it in a later step).
 
@@ -67,6 +67,6 @@ This script uses TMDB's API to find the most likely match to each film in your R
 The script will generate `import_film_catalog.csv` in the project directory. This file is formatted according to [Letterboxd's Import Guidelines](https://letterboxd.com/help/importing-data).
 
 ## Importing into Letterboxd
-1. Go to [Letterboxd's Importer](https://letterboxd.com/import) and click "SELECT A FILE".
+1. Go to [Letterboxd's Importer](https://letterboxd.com/import) and click 'SELECT A FILE'.
 2. Select the newly created `import_film_catalog.csv`.
-3. Review the Import summary, then click "IMPORT FILMS".
+3. Review the Import summary, then click 'IMPORT FILMS'.
