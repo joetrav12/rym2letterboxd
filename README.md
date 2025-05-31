@@ -2,6 +2,12 @@
 
 Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](https://letterboxd.com).
 
+## Notes
+
+RYM does not currently offer a public API [(though one is planned in the future)](https://sonemic.com). While Letterboxd does have an API, access is not granted for personal projects. Additionally, web scraping RYM is not viable, as the site will block your IP after too many requests.
+
+As a result, this script requires a manual export of your film catalog from RYM. Once exported, the script transforms the data into a .csv file that you can then manually import into Letterboxd.
+
 ## Requirements
 
 You'll need [Python v3.7+](https://python.org/downloads) and [Pip v19.0+](https://pip.pypa.io/en/stable/installation) installed to run this script.
