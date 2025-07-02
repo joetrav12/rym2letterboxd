@@ -2,6 +2,8 @@
 
 Convert your exported [Rate Your Music](https://rateyourmusic.com) film catalog into a format ready for import into [Letterboxd](https://letterboxd.com).
 
+[*Script has been added to Letterboxd's list of import tools*](https://letterboxd.com/about/importing-data)
+
 ## Notes
 
 RYM does not currently offer a public API [(though one is planned in the future)](https://sonemic.com). While Letterboxd does have an API, access is not granted for personal projects. Additionally, web scraping RYM is not viable, as the site will block your IP after too many requests.
