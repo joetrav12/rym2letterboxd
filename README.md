@@ -65,7 +65,7 @@ This script uses TMDB's API to find the most likely match to each film in your R
    chmod +x rym2letterboxd.py
    ```
 
-7. Run the script:
+6. Run the script:
 
     ```bash
     python rym2letterboxd.py
