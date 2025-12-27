@@ -59,7 +59,13 @@ This script uses TMDB's API to find the most likely match to each film in your R
 
 4. Open `.env` and add your key.
 
-5. Run the script:
+5. Adds execute permission to the file if on Unix system (macOS / Linux)
+
+   ```bash
+   chmod +x rym2letterboxd.py
+   ```
+
+7. Run the script:
 
     ```bash
     python rym2letterboxd.py
