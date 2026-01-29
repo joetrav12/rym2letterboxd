@@ -112,6 +112,9 @@ def main(argv):
         corrected_title = find_best_match(title, year)
         rym_films.loc[index, 'Title'] = corrected_title
 
+        if (index + 1) % 20 == 0:
+            print(f'Handled {index + 1} of {len(rym_films)} rows')
+
     # Update DataFrame with new columns
     rym_films['Year'] = years
     rym_films['WatchedDate'] = watched_dates_formatted
